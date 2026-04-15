@@ -1,0 +1,29 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about-content p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    padding: 1.25rem;
+  }
+  .about-content p {
+    font-size: 0.9rem;
+  }
+}
