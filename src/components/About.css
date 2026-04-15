@@ -26,4 +26,7 @@
   .about-content p {
     font-size: 0.9rem;
   }
+  .about-content p.long-bio {
+    display: none;
+  }
 }

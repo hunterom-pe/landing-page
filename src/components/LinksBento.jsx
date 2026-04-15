@@ -1,4 +1,4 @@
-import { FiInstagram, FiLinkedin, FiFilm, FiBriefcase } from 'react-icons/fi';
+import { FiInstagram, FiLinkedin, FiFilm, FiBriefcase, FiGithub } from 'react-icons/fi';
 import { FaSpotify } from 'react-icons/fa';
 import './LinksBento.css';
 
@@ -32,6 +32,12 @@ const links = [
     url: 'https://open.spotify.com/user/1231408?si=cc42178c115249c3',
     icon: <FaSpotify size={20} />,
     description: 'My Playlists'
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/hunterom-pe',
+    icon: <FiGithub size={20} />,
+    description: 'My Code'
   }
 ];
 
