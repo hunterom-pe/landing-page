@@ -11,16 +11,13 @@ export default function InstagramShowcase() {
   ];
 
   return (
-    <section className="ig-showcase">
-      <div className="ig-header">
-        <h2>Latest Visuals</h2>
-        <a href="https://www.instagram.com/hunter_thecatlady" target="_blank" rel="noopener noreferrer" className="ig-link">@hunter_thecatlady</a>
-      </div>
-      <div className="ig-grid">
-        {images.map(img => (
-          <div key={img.id} className="ig-image-container">
+    <section className="ig-showcase" id="visuals">
+      <h3 className="section-label">VISUALS</h3>
+      <div className="ig-grid-brutalist">
+        {images.map((img, index) => (
+          <a key={img.id} href="https://www.instagram.com/hunter_thecatlady" target="_blank" rel="noopener noreferrer" className={`ig-image-container item-${index}`}>
             <img src={img.src} alt={img.alt} className="ig-image" />
-          </div>
+          </a>
         ))}
       </div>
     </section>
