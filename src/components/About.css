@@ -25,7 +25,4 @@
   .about-section p {
     font-size: 0.9rem;
   }
-  .about-section p.long-bio {
-    display: none;
-  }
 }
